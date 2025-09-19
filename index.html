@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> swiggy_task </title>
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Agbalumo&family=Agu+Display&family=Aladin&display=swap" rel="stylesheet">
+        <style>
+		    h1{
+                
+  font-family: "Aladin", system-ui;
+  font-weight: 400;
+  font-style: normal;
+            }
+
+            #logo{width: 150px;height: 50px;border-radius: 20px;box-shadow: 0px 0px 2px;}
+            nav{ 
+                padding: 10px;
+                background-color: orangered;
+                display: flex;
+                justify-content: space-between;
+            }
+            ul{
+                list-style: none;
+                display: flex;
+                flex-direction: row;
+            }
+            a{
+                text-decoration: none;
+                 color: black;
+             margin-right: 60px;
+            }
+            
+            .div1{
+                background-color: #FED16A;
+                display: flex;
+                flex-direction: row;
+                justify-content: space-between;
+                padding: 20px;
+                align-items: center;
+            }
+            .mainimg{
+                width: 400px;
+                height: 250px;
+                border-radius: 10px;
+            }
+            .box{
+                display: inline-block;
+                background-color: orangered ;
+                color: white;
+                padding: 5px;
+                border-radius: 15px;
+                margin: 0px;
+				font-family: "Agu Display", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-variation-settings:
+    "MORF" 0;
+				
+            }
+            h2{
+                text-align: center;
+				font-family: "Agbalumo", system-ui;
+  font-weight: 400;
+  font-style: normal;
+            }
+            .card{
+                display: flex;
+                /*flex-direction: ;*/
+                justify-content: space-evenly;
+				flex-wrap:wrap;
+				gap:30px;
+				align-items:center;
+				align-content:space-evenly;
+            }
+            .div2 img{
+                width: 250px;
+				margin:10px;
+                height:150px;
+				border-radius:5px
+            }
+            .div2{
+                display: flex;
+                flex-direction: column;
+                background-color: #FFE0B5;
+				border-radius:6px;
+				box-shadow: 0px 3px 6px rgba(0,0,0,0.1);
+				width:270px;
+            }
+             .card p{
+                margin:0px 0px 10px 10px;
+            }
+			.card h3{
+                margin:0px 0px 10px 10px;
+            }
+            footer{
+                display: flex;
+                flex-direction: row;
+                justify-content: space-around;
+                background-color: black;
+                color: white;
+                align-items: center;
+                text-align: center;
+                padding: 20px;
+                padding-right: 130px;
+            }
+            #divi{
+                padding: 20px;
+            }
+			.div2:hover {
+			transform: scale(1.05);
+			}
+			.box:hover {
+			transform: scale(1.05);
+			}
+        </style>
+    </head>
+    <body>
+
+        <header>
+            <nav>
+                <img id="logo" src="logo.png">
+                <ul>
+                    <li> <a href="#"> Home </a> </li>
+                    <li> <a href="#"> Menu </a> </li>
+                    <li> <a href="#"> Contact </a> </li>
+                </ul>
+            </nav>
+        </header>
+
+        <div class="div1">
+            <section class="w">
+                <h1> Delicious Food, Delivered Fast</h1>
+                <p> Order your favorite meals and get them delivered right to your doorsteps in minutes </p>
+                <input type="submit" value="Order now" class="box">
+            </section>
+            <section>
+                <img class="mainimg" src="mainimg.jpeg">
+            </section>
+        </div>
+
+        <div id="divi">
+
+            <h2> Our popular Dishes </h2>
+
+            <br> <br>
+
+            <div class="card">
+            <section class="div2">
+                <img  src="veg_platter.jpeg">
+                <h3> Veg-platter </h3>
+                <p> Rs.249 </p>
+            </section>
+            <section class="div2">
+                <img src="shawarma.png">
+                <h3> Shawarma </h3>
+                <p> Rs.99 </p>
+            </section>
+            <section class="div2">
+                <img src="guthi.jpeg">
+                <h3> Guthi Vankaya </h3>
+                <p> Rs.149 </p>
+            </section>
+            <section class="div2">
+                <img src="pizza.jpeg">
+                <h3> Pizza </h3>
+                <p> Rs.199 </p>
+            </section>
+            </div>
+
+        </div>
+
+        <footer>
+            <section>
+                <h3>Aboutus</h3>
+                <p> we order delicious food to your doorstep quickly and safely </p>
+            </section>
+            <section>
+                <h3> Contact </h3>
+                <p> Email.support@gmail.com </p>
+                <p> phone : +91 9887778877 </p>
+            </section>
+            <section>
+                <h3> Follow us </h3>
+                <p> Facebook | Instagram | Twitter </p>
+            </section>
+        </footer>
+
+    </body>
+</html>
